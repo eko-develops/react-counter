@@ -1,70 +1,61 @@
-# Getting Started with Create React App
+# react-counter
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+![React Counter IMG](react-counter-img.JPG)
 
-## Available Scripts
+> This project is a simple counter app created with React and to learn the basics of the Material-UI.
 
-In the project directory, you can run:
+---
 
-### `npm start`
+### Table of Contents
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+- [Description](#description)
+- [How To Use](#how-to-use)
+- [References](#references)
 
-### `npm test`
+---
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## Description
 
-### `npm run build`
+This simple project was created to practice React and the UI framework Material UI. The app is a counter with 3 buttons: **+**, **-**, and **RESET**. Each button calls a function that changes the state of the number.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+The project provides examples of how to use common components from Material UI with props. The Counter component is written as a functional component so the app provides an example of how to use the useState React hook. There is also a simple example of how to handle clicks for buttons.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+#### Technologies
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+- React **v17.0.2**
+- Material-UI **v4.11.4**
 
-### `npm run eject`
+[Back To The Top](#react-counter)
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+---
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+## How To Use
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+#### Installation
+You can download the repo as a zip file or you can fork it as your own repo.
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+When you have the files on your local, install the npm packages using:
+```
+    npm install
+```
 
-## Learn More
+Run the project using:
+```
+    npm start
+```
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+#### App Usage
+The app itself is simple enough to use. You can click the **+** to add to the counter and **-** to subtract from the counter. Clicking the reset button will **reset** the counter back to 0.
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+[Back To The Top](#react-counter)
 
-### Code Splitting
+---
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+## References
 
-### Analyzing the Bundle Size
+- React - https://reactjs.org/docs/getting-started.html
+- Material-UI - https://material-ui.com/getting-started/installation/
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
 
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+[Back To The Top](#react-counter)
